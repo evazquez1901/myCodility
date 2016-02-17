@@ -6,7 +6,6 @@ import java.util.Arrays;
 
 class Solution {
     public int solution(int[] A) {
-        // write your code in Java SE 8
         Arrays.sort(A); //nlogn
         int counter = 0;
         int current = 1000001;
