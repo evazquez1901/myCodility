@@ -4,7 +4,7 @@
  
 import java.util.Arrays;
 
-class Solution {
+class OddOccurrencesInArray {
     public int solution(int[] A) {
         Arrays.sort(A); //nlogn
         int counter = 0;
